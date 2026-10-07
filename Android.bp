@@ -22,7 +22,6 @@ android_app {
         "setupcompat",
         "setupdesign",
         "vendor.aospa.biometrics.face",
-        "vendor.aospa.biometrics.face.impl",
     ],
 
     required: [
@@ -103,13 +102,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     check_elf_files: false,
     prefer: true,
-    system_ext_specific: true,
-}
-
-java_import {
-    name: "vendor.aospa.biometrics.face.impl",
-    jars: ["lib/vendorImplPrebuilt.jar"],
-    sdk_version: "current",
     system_ext_specific: true,
 }
 
