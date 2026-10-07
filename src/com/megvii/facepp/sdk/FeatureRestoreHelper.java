@@ -3,12 +3,13 @@
  * 
  * Could not load the following classes:
  *  android.util.Log
- *  co.aospa.sense.vendor.util.UnlockEncryptor
+ *  com.android.faceunlock.vendor.util.UnlockEncryptor
  */
 package com.megvii.facepp.sdk;
 
 import android.util.Log;
-import co.aospa.sense.vendor.util.UnlockEncryptor;
+
+import com.android.faceunlock.vendor.util.UnlockEncryptor;
 import com.megvii.facepp.sdk.Lite;
 import java.io.File;
 import java.io.FileInputStream;

@@ -7,7 +7,7 @@
  *  android.os.Environment
  *  android.os.StatFs
  *  android.util.Log
- *  co.aospa.sense.vendor.util.UnlockEncryptor
+ *  com.android.faceunlock.vendor.util.UnlockEncryptor
  */
 package com.megvii.facepp.sdk;
 
@@ -15,7 +15,8 @@ import android.media.Image;
 import android.os.Environment;
 import android.os.StatFs;
 import android.util.Log;
-import co.aospa.sense.vendor.util.UnlockEncryptor;
+
+import com.android.faceunlock.vendor.util.UnlockEncryptor;
 import com.megvii.facepp.sdk.FeatureRestoreHelper;
 import com.megvii.facepp.sdk.jni.LiteApi;
 import java.nio.ByteBuffer;

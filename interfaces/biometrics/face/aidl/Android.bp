@@ -13,7 +13,7 @@
 // limitations under the License.
 
 java_library {
-    name: "vendor.aospa.biometrics.face",
+    name: "vendor.android.biometrics.face",
     installable: true,
     srcs: [
         "src/**/*.java",

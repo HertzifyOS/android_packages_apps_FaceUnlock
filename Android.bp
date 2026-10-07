@@ -21,7 +21,7 @@ android_app {
         "setup-wizard-lib",
         "setupcompat",
         "setupdesign",
-        "vendor.aospa.biometrics.face",
+        "vendor.android.biometrics.face",
     ],
 
     required: [
@@ -29,9 +29,9 @@ android_app {
         "libmegface_faceunlock",
         "libMegviiUnlock",
         "libMegviiUnlock-jni-1.2",
-        "default_permissions_co.aospa.sense.xml",
-        "hiddenapi-whitelist-co.aospa.sense.xml",
-        "privapp_whitelist_co.aospa.sense.xml",
+        "default_permissions_com.android.faceunlock.xml",
+        "hiddenapi-whitelist-com.android.faceunlock.xml",
+        "privapp_whitelist_com.android.faceunlock.xml",
         "FaceUnlockOverlay",
     ],
 
@@ -106,22 +106,22 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_etc {
-    name: "default_permissions_co.aospa.sense.xml",
-    src: "permissions/default_permissions_co.aospa.sense.xml",
+    name: "default_permissions_com.android.faceunlock.xml",
+    src: "permissions/default_permissions_com.android.faceunlock.xml",
     sub_dir: "default-permissions",
     system_ext_specific: true,
 }
 
 prebuilt_etc {
-    name: "hiddenapi-whitelist-co.aospa.sense.xml",
-    src: "permissions/hiddenapi-whitelist-co.aospa.sense.xml",
+    name: "hiddenapi-whitelist-com.android.faceunlock.xml",
+    src: "permissions/hiddenapi-whitelist-com.android.faceunlock.xml",
     sub_dir: "sysconfig",
     system_ext_specific: true,
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_co.aospa.sense.xml",
-    src: "permissions/privapp_whitelist_co.aospa.sense.xml",
+    name: "privapp_whitelist_com.android.faceunlock.xml",
+    src: "permissions/privapp_whitelist_com.android.faceunlock.xml",
     sub_dir: "permissions",
     system_ext_specific: true,
 }
